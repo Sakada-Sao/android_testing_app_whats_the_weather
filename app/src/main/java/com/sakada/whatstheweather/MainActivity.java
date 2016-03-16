@@ -55,7 +55,7 @@ public class MainActivity extends AppCompatActivity {
             DownloadTask task = new DownloadTask();
             task.execute("http://api.openweathermap.org/data/2.5/weather?q=" +
                     encodedCityName +
-                    "&appid=44db6a862fba0b067b1930da0d769e98");
+                    "&appid=51af9b3dc6bb758c5e43cd59886aa0aa");
 
         } catch (UnsupportedEncodingException e) {
             Toast.makeText(getApplicationContext(), "Could not find weather", Toast.LENGTH_LONG).show();
